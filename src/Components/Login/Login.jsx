@@ -64,7 +64,7 @@ const Login = () => {
           <div className='hero h-full rounded-lg bg-cover bg-center bg-no-repeat bg-[url("https://i.ibb.co/nRPVzQ1/b0dc8f35-3126-4eae-b575-38285553c9a4.jpg")]'>
                   <div className="w-full hero-content flex-col gap-14 lg:gap-28 lg:flex-row-reverse">
                       <div className="text-center lg:text-left">
-                          <h1 className="text-6xl mt-5 text-purple-700 bg-[#c1c0c03b] text-center font-bold pb-1 rounded-xl">OneBlood!</h1>
+                          <h1 className="text-6xl mt-5 text-purple-700 bg-[#c1c0c03b] text-center font-bold pb-1 rounded-xl">My Blood !</h1>
                           <p className="py-6 text-white text-center text-xl font-semibold">We believe in every drop of blood.</p>
                           
                       </div>

@@ -113,7 +113,7 @@ const axiosPublic = useAxiosPublic();
       <div className='flex flex-col w-[80%] p-6 rounded-md sm:p-10 bg-gray-100 text-gray-900'>
         <div className='mb-8 text-center'>
           <h1 className='my-3 text-4xl font-bold'>Sign Up</h1>
-          <p className='text-sm text-gray-400'>Welcome to OneBlood</p>
+          <p className='text-sm text-gray-400'>Welcome to My Blood</p>
         </div>
         <form onSubmit={handleSubmit} className='space-y-6'>
           <div className='space-y-4'>
@@ -401,7 +401,7 @@ const axiosPublic = useAxiosPublic();
            </div> 
         </form>
         
-        <p className='px-6 text-sm text-center text-gray-400'>
+        <p className='px-6 mt-5 text-sm text-center text-gray-400'>
           Already have an account?{' '}
           <Link
             to='/login'

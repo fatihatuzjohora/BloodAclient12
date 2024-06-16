@@ -15,6 +15,7 @@ const ContentManage = () => {
         },
     });
 
+    
     // const deleteMutation = useMutation(
     //     async (id) => {
     //         await axiosPublic.delete(`/blogs/${id}`);
