@@ -42,7 +42,7 @@ const router = createBrowserRouter([
         path: "/requests",
         element: <DonationRequest></DonationRequest>,
       },
-      
+
       {
         path: "/requests/:id",
         element: (
@@ -51,18 +51,22 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "/login",
         element: <Login></Login>,
       },
+
       {
         path: "/register",
         element: <Register></Register>,
       },
+
       {
         path: "/blog",
         element: <Blog></Blog>,
       },
+
       {
         path: "/blog/:id",
         element: (
@@ -72,6 +76,7 @@ const router = createBrowserRouter([
         ),
         //loader: ({params}) => fetch(`http://localhost:5000/blogs/${params.id}`)
       },
+
       {
         path: "/fundings",
         element: (
@@ -81,6 +86,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "/form",
         element: (
@@ -90,10 +96,12 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "/search",
         element: <Search></Search>,
       },
+
       {
         path: "edit/:id",
 
@@ -103,6 +111,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+      
     ],
   },
   {
