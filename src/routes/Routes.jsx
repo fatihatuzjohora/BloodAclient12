@@ -111,9 +111,10 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
-      
+
     ],
   },
+
   {
     path: "/dashboard",
     element: (
@@ -142,6 +143,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "all-users",
         element: (
@@ -152,6 +154,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "detail/:id",
         element: (
@@ -160,6 +163,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "my-dontion-requests/detail/:id",
         element: (
@@ -168,6 +172,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "all-blood-dontion-request/detail/:id",
         element: (
@@ -176,6 +181,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "my-dontion-requests",
         element: (
@@ -186,6 +192,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "all-blood-dontion-request/edit/:id",
 
@@ -208,6 +215,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "content-management",
         element: (
@@ -218,6 +226,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "content-management/add-blog",
         element: (
@@ -228,6 +237,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "profile",
         element: (
@@ -236,6 +246,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+      
     ],
   },
 ]);
