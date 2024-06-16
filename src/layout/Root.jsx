@@ -8,7 +8,7 @@ const Root = () => {
            <Navbar></Navbar>
 
            
-           <div className='w-full'>
+           <div >
                <Outlet></Outlet>
             </div>
             

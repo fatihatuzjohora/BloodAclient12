@@ -70,7 +70,7 @@ const handleSubmit = async e => {
         <div className='flex justify-center items-center min-h-screen'>
       <div className='flex flex-col max-w-md p-6 rounded-md sm:p-10 bg-gray-100 text-gray-900'>
         <div className='mb-8 text-center'>
-          <h1 className='my-3 text-4xl font-bold'>Welcome to OneBlood</h1>
+          <h1 className='my-3 text-4xl font-bold'>Welcome to My Blood</h1>
           <button onClick={handleEdit} className='btn btn-error'>Edit</button>
         </div>
         <form onSubmit={handleSubmit} className='space-y-6'>

@@ -211,7 +211,7 @@ useEffect(() => {
         <>
         <h1 className="text-center text-green-700 text-3xl font-semibold mb-6">All Requests</h1>
         <div className="overflow-x-auto min-h-[46vh]">
-            <table className="table rounded-none bg-[#c3b8cbc1]">
+            <table className="table rounded-none bg-[#c3b8cbc1] ">
                 {/* head */}
                 <thead>
                     <tr>

@@ -4,7 +4,7 @@ import Sidebar from '../Components/Dashboard/Sidebar/Sidebar'
 
 const DashboardLayout = () => {
     return (
-      <div className='relative min-h-screen md:flex'>
+      <div className='relative  md:flex'>
         {/* Sidebar */}
         <Sidebar />
   
