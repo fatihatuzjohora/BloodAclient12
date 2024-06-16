@@ -32,7 +32,6 @@ const router = createBrowserRouter([
     element: <Root></Root>,
     errorElement: <Error />,
     children: [
-
       {
         path: "/",
         element: <Home></Home>,
@@ -111,7 +110,6 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
-
     ],
   },
 
@@ -246,7 +244,6 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
-      
     ],
   },
 ]);
