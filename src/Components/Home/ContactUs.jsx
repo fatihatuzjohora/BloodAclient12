@@ -6,12 +6,12 @@ const handleSubmit = () => {
 }
 
     return (
-        <div className='hero h-full  rounded-lg md:mb-14 bg-[#7b0743d9] my-5 p-5'>
+        <div className='hero h-full  rounded-lg md:mb-14 bg-rose-400 my-5 p-5'>
         <div className="hero-content w-full p-0 flex-col lg:flex-row">
         <div className=' flex flex-col justify-center items-center lg:items-start w-full lg:w-1/2  rounded-lg '>
             <h1 className="text-5xl font-bold text-white pb-2">Contact Us!</h1>
-            <p className="text-left text-white font-semibold">01956230265</p>
-            <p className="text-white font-semibold">asfaqurrahman055@gmail.com</p>
+            <p className="text-left text-white font-semibold">01822366902</p>
+            <p className="text-white font-semibold">fatihatuzjohora143@gmail.com</p>
            
           </div>
           <form  

@@ -10,7 +10,7 @@ const Home = () => {
            <Banner></Banner> 
 
 
-           <div className="gadgetContainer px-2 md:px-10 py-24 mt-20 bg-[#971f43c2] rounded-lg">
+           <div className="gadgetContainer px-2 md:px-10 py-24 mt-20 bg-rose-300 rounded-lg">
           {/* header */}
           <div className="text-center md:text-left ">
             <p className="font-semibold text-[#ffffff] mb-3 text-center text-3xl md:text-left">

@@ -1,18 +1,18 @@
-import logo from '../../assets/logo.png'
+
 const Footer = () => {
     return (
         <div>
          <footer className="footer p-10 mt-6 bg-green-200 text-base-content">
   <aside>
-    <img className='w-20 h-20 rounded-sm' src={logo} alt="logo" />
-    <p className="font-semibold text-xl">OneBlood.<br/>Providing blood since 1992</p>
+    <img className='w-[150px] rounded-sm' src='https://i.ibb.co/S6kq8JM/download.png'alt="logo" />
+    <p className="font-semibold text-xl">My Blood.<br/>Providing blood since 1992</p>
   </aside> 
   <nav>
   <h6 className="footer-title text-lg text-cyan-900">Contacts</h6> 
-    <a className="link link-hover font-medium text-gray-600">asfaqurrahman055@gmail.com</a>
-    <a className="link link-hover font-medium text-gray-600">hamimhamim044@gmail.com</a>
-    <a className="link link-hover font-medium text-gray-600">01956230265</a>
-    <a className="link link-hover font-medium text-gray-600">01572908354</a>
+    <a className="link link-hover font-medium text-gray-600">fatihatuzjohora143@gmail.com</a>
+    <a className="link link-hover font-medium text-gray-600">jnnat@gmail.com</a>
+    <a className="link link-hover font-medium text-gray-600">01822366902</a>
+    <a className="link link-hover font-medium text-gray-600">01500000000</a>
   </nav> 
   <nav>
     <h6 className="footer-title">Company</h6> 
