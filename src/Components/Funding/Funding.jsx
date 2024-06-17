@@ -5,7 +5,9 @@ import { Elements } from "@stripe/react-stripe-js";
 
 
 // TODO: add publishable key
-const stripePromise = loadStripe(import.meta.env.VITE_Payment_Gateway_PK);
+// VITE_Payment_Gatway_PK
+// VITE_Payment_Gateway_PK
+const stripePromise = loadStripe(import.meta.env.VITE_Payment_Gatway_PK);
 
 const Funding = () => {
 
