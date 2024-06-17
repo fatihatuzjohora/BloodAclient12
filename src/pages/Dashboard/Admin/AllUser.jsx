@@ -21,7 +21,7 @@ const AllUser = () => {
     const add = { status };
     // console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/user/${id}`, {
+    fetch(`https://blood-theta.vercel.app/user/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -41,7 +41,7 @@ const AllUser = () => {
     const add = { status };
     console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/user/${id}`, {
+    fetch(`https://blood-theta.vercel.app/user/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -61,7 +61,7 @@ const AllUser = () => {
     const add = { role };
     // console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/users/${id}`, {
+    fetch(`https://blood-theta.vercel.app/users/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -81,7 +81,7 @@ const AllUser = () => {
     const add = { role };
     // console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/users/${id}`, {
+    fetch(`https://blood-theta.vercel.app/users/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

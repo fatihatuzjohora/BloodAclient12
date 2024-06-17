@@ -46,7 +46,7 @@ const handleSubmit = async e => {
         const updatedInfo = {name, photo, email, blood, dictrict, upazila  };
 
         // send data to the server
- fetch(`http://localhost:5000/update-user/${uder?._id}`, {
+ fetch(`https://blood-theta.vercel.app/update-user/${uder?._id}`, {
   method: 'PUT',
   headers: {
       'content-type': 'application/json'

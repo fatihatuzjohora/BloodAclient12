@@ -61,7 +61,7 @@ const Edit = () => {
     };
 
     // send data to the server
-    fetch(`http://localhost:5000/update/${request?._id}`, {
+    fetch(`https://blood-theta.vercel.app/update/${request?._id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

@@ -37,7 +37,7 @@ const AllRequest = () => {
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
-        `http://localhost:5000/products?page=${currentPage}&limit=${itemsPerPage}`
+        `https://blood-theta.vercel.app/products?page=${currentPage}&limit=${itemsPerPage}`
       );
 
       const data = await response.json();
@@ -52,7 +52,7 @@ const AllRequest = () => {
     const add = { status };
     console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/request/${id}`, {
+    fetch(`https://blood-theta.vercel.app/request/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -72,7 +72,7 @@ const AllRequest = () => {
     const add = { status };
     console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/request/${id}`, {
+    fetch(`https://blood-theta.vercel.app/request/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -93,7 +93,7 @@ const AllRequest = () => {
     const add = { status };
     console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/request/${id}`, {
+    fetch(`https://blood-theta.vercel.app/request/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -114,7 +114,7 @@ const AllRequest = () => {
     const add = { status };
     console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/request/${id}`, {
+    fetch(`https://blood-theta.vercel.app/request/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -165,7 +165,7 @@ const AllRequest = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://blood-theta.vercel.app/delete/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

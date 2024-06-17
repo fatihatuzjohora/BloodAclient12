@@ -29,7 +29,7 @@ const Search = () => {
     event.preventDefault();
     try {
       const response = await fetch(
-        `http://localhost:5000/api/filter?dictrict=${dictrict}&upazila=${upazila}&blood=${blood}`
+        `https://blood-theta.vercel.app/api/filter?dictrict=${dictrict}&upazila=${upazila}&blood=${blood}`
       );
       const data = await response.json();
       console.log(data);

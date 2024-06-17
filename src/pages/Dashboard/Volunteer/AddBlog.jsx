@@ -92,7 +92,7 @@ const AddBlog = () => {
     const add = { status };
     console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/blogs/${id}`, {
+    fetch(`https://blood-theta.vercel.app/blogs/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -117,7 +117,7 @@ const AddBlog = () => {
     const add = { status };
     console.log(id);
     // send data to the server
-    fetch(`http://localhost:5000/blogs/${id}`, {
+    fetch(`https://blood-theta.vercel.app/blogs/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -146,7 +146,7 @@ const AddBlog = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/blogs/${id}`, {
+        fetch(`https://blood-theta.vercel.app/blogs/${id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
